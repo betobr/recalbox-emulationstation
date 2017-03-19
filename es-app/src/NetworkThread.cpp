@@ -35,7 +35,7 @@ void NetworkThread::run(){
 
 	if(RecalboxConf::getInstance()->get("updates.enabled") == "1") {
 	  if(RecalboxSystem::getInstance()->canUpdate()){
-	    mWindow->displayMessage(_("AN UPDATE IS AVAILABLE FOR BATOCERA.LINUX"));
+	    mWindow->displayMessage(_("AN UPDATE IS AVAILABLE FOR RETROBR"));
 	    mRunning = false;
 	  }
 	}
